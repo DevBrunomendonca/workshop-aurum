@@ -1,6 +1,7 @@
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { modaniBold, modaniRegular } from "../layout";
 import VideoBanner from "./banner-video";
+import Countdown from "./count-down";
 
 const Main = () => {
   return (
@@ -26,24 +27,7 @@ const Main = () => {
         </div>
         <div className="flex items-center">
           <h4 className="-rotate-90">Faltam</h4>
-          <div className="flex items-center gap-4">
-            <div className="flex h-16 w-16 flex-col items-center rounded-md bg-[#F3E902] p-2 text-black">
-              <span className={`${modaniBold.className} text-2xl`}>17</span>
-              <span className="text-xs">dias</span>
-            </div>
-            <div className="flex h-16 w-16 flex-col items-center rounded-md bg-[#F3E902] p-2 text-black">
-              <span className={`${modaniBold.className} text-2xl`}>01</span>
-              <span className="text-xs">hora</span>
-            </div>
-            <div className="flex h-16 w-16 flex-col items-center rounded-md bg-[#F3E902] p-2 text-black">
-              <span className={`${modaniBold.className} text-2xl`}>26</span>
-              <span className="text-xs">minutos</span>
-            </div>
-            <div className="flex h-16 w-16 flex-col items-center rounded-md bg-[#F3E902] p-2 text-black">
-              <span className={`${modaniBold.className} text-2xl`}>56</span>
-              <span className="text-xs">segundos</span>
-            </div>
-          </div>
+          <Countdown />
         </div>
         <div className="mx-auto flex w-full max-w-[480px] flex-col items-center justify-center gap-4 lg:ml-0 lg:flex-row">
           <a
