@@ -1,7 +1,6 @@
 "use client"
 import Image from "next/image"
 import React from "react"
-declare function gtag_report_conversion(): void
 
 const BtnWtpp = () => {
   return (
