@@ -54,9 +54,9 @@ const Speaker = () => {
             description="Gerenciamento de Risco: O Segredo dos 5% que Vencem"
           />
         </div>
-        <button className="mx-auto w-full max-w-96 rounded-md bg-[#F3E902] px-8 py-4 text-center text-black">
+        <a href="https://checkout.doppus.app/62522663/" target="_blank" className="mx-auto w-full max-w-96 rounded-md bg-[#F3E902] px-8 py-4 text-center text-black">
           Quero credenciar
-        </button>
+        </a>
       </div>
     </section>
   );

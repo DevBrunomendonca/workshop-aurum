@@ -42,7 +42,7 @@ const Location = () => {
               <MapPin color="#000" /> Ir Para o local
             </a>
             <a
-              href="#"
+              href="https://checkout.doppus.app/62522663/"
               target="_blank"
               className="rounded-md bg-black px-16 py-4 text-[#F3E902]"
             >

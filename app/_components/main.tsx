@@ -43,11 +43,11 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <button className="mx-auto w-full max-w-96 rounded-md bg-[#F3E902] px-8 py-4 text-center text-black">
+        <a href="https://checkout.doppus.app/62522663/" target="_blank" className="mx-auto w-full max-w-96 rounded-md bg-[#F3E902] px-8 py-4 text-center text-black">
           Quero credenciar
-        </button>
+        </a>
         <div className="flex items-center">
-          <button className="text-[#F3E902]">Ver Palestrantes</button>
+          <a href="#" className="text-[#F3E902]">Ver Palestrantes</a>
           <ArrowRight color="#F3E902"/>
         </div>
       </div>
