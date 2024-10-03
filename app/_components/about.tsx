@@ -3,7 +3,7 @@ import Profile from "./profile";
 
 const About = () => {
   return (
-    <section className="bg-[url('/banner-about.webp')] bg-cover bg-right bg-no-repeat px-4 py-16">
+    <section id="about" className="bg-[url('/banner-about.webp')] bg-cover bg-right bg-no-repeat px-4 py-16">
       <div className="flex flex-col items-center gap-4 max-w-6xl mx-auto md:flex-row ">
         <div className="mx-auto w-full flex flex-col items-center gap-5 ">
           <h2 className={`${modaniBold.className} text-4xl text-white`}>

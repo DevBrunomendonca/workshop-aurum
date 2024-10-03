@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Location = () => {
   return (
-    <section className="bg-[#F3E902]  py-8">
+    <section id="location" className="bg-[#F3E902]  py-8">
       <Image
       quality={100}
         src="/banner-ipog.png"

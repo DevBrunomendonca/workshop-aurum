@@ -4,9 +4,9 @@ import VideoBanner from "./banner-video";
 
 const Main = () => {
   return (
-    <section className="relative h-[700px] w-full bg-[url('/banner-home-mobile.webp')] bg-cover bg-center bg-no-repeat px-4 py-16 lg:bg-none">
+    <section id="home" className="relative h-[700px] mt-0 w-full bg-[url('/banner-home-mobile.webp')] bg-cover bg-center bg-no-repeat  py-16 lg:bg-none md:mt-24 lg:mt-0">
       <VideoBanner />
-      <div className="mx-auto flex h-full max-w-6xl flex-col items-center justify-end gap-6 lg:items-start lg:justify-center">
+      <div className="mx-auto px-4 flex h-full max-w-4xl flex-col items-center justify-end gap-6 lg:items-start lg:justify-center lg:-mt-10">
         <div className="flex flex-col items-center gap-6 lg:items-start">
           <div className="flex items-center gap-2">
             <h3 className={`${modaniRegular} text-base text-white`}>
@@ -54,7 +54,7 @@ const Main = () => {
             Quero credenciar
           </a>
           <a
-            href="#"
+            href="#speaker"
             className="flex w-full items-center justify-center px-2 py-4 text-[#F3E902]"
           >
             Ver Palestrantes <ArrowRight color="#F3E902" />
