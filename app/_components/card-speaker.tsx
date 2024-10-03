@@ -34,7 +34,7 @@ const CardSpeaker = ({
         {dataCard}
       </h3>
       <div className="flex items-center gap-1">
-        <Clock size={16} />
+        <Clock color="#ffffff" size={16} />
         <span className="text-sm text-white">{`${timeCard}`}</span>
       </div>
       <div className="flex items-center gap-1">

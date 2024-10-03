@@ -5,6 +5,8 @@ import { modaniBold } from "../fonts";
 const Location = () => {
   return (
     <section id="location" className="bg-[#F3E902]  py-8">
+      <div className="-mt-60 flex flex-col gap-2">
+      <h2 className={`${modaniBold.className}  text-white text-center text-4xl`}>Local do <span className="text-[#F3E902]">Evento</span></h2>
       <Image
       quality={100}
         src="/banner-ipog.png"
@@ -12,8 +14,9 @@ const Location = () => {
         width={0}
         height={0}
         sizes="100vh"
-        className="mx-auto -mt-60 px-4 h-full max-h-[530px] w-full max-w-4xl object-cover"
+        className="mx-auto  px-4 h-full max-h-[530px] w-full max-w-4xl object-cover"
       />
+      </div>
       <div className="mx-auto px-4 flex max-w-6xl flex-col gap-6 pt-16 md:flex-row">
         <div className="flex flex-col items-start gap-2">
           <h2 className={`${modaniBold.className} text-4xl text-black`}>
@@ -29,9 +32,7 @@ const Location = () => {
         </div>
         <div className="flex flex-col items-center gap-6">
           <p className="text-sm text-black">
-            Preparamos um local exclusivo para a segunda edição do nosso
-            workshop presencial para que você possa entender sobre o mercado
-            ações.
+          Preparamos um local exclusivo para nosso Workshop, com todo conforto e estrutura para te receber.
           </p>
           <div className="flex flex-col w-full items-center justify-between gap-6 md:flex-row" >
             <a

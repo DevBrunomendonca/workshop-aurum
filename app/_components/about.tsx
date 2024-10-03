@@ -60,7 +60,7 @@ const About = () => {
             convite para você. 
           </p>
           <p className="text-white text-sm"> 
-            Nosso Workshop Presencial acontecerá no neste mês
+            Nosso Workshop Presencial acontecerá neste mês
             de outubro, e pode ter certeza que você sairá de lá com uma
             compreensão única sobre o Mercado, e terá todo o suporte para ter
             sucesso.

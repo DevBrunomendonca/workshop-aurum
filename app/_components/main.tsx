@@ -21,8 +21,8 @@ const Main = () => {
             Transforme<span className="text-[#F3E902]"> sua vida com </span>o
             Mercado Financeiro!
           </h1>
-          <p className="text-center text-sm">
-            Você faz parte dos 5% que sobrevive no mercado financeiro!
+          <p className="text-center text-white text-sm">
+          Faça parte dos 5% que sobrevive no mercado financeiro!
           </p>
         </div>
         <div className="flex items-center">
