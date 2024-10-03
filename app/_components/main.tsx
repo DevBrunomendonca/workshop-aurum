@@ -1,11 +1,13 @@
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { modaniBold, modaniRegular } from "../layout";
+import VideoBanner from "./banner-video";
 
 const Main = () => {
   return (
-    <section className="h-[700 px-4 py-16 w-full bg-[url('/banner-home-mobile.webp')] bg-cover bg-center bg-no-repeat">
-      <div className="flex h-full flex-col items-center justify-end gap-6 ">
-        <div className="flex flex-col items-center gap-6">
+    <section className="relative h-[700px] w-full bg-[url('/banner-home-mobile.webp')] bg-cover bg-center bg-no-repeat px-4 py-16 lg:bg-none">
+      <VideoBanner />
+      <div className="mx-auto flex h-full max-w-6xl flex-col items-center justify-end gap-6 lg:items-start lg:justify-center">
+        <div className="flex flex-col items-center gap-6 lg:items-start">
           <div className="flex items-center gap-2">
             <h3 className={`${modaniRegular} text-base text-white`}>
               Workshop Presencial{" "}
@@ -13,7 +15,7 @@ const Main = () => {
             <ArrowUpRight color="#F3E902" />
           </div>
           <h1
-            className={`${modaniBold.className} text-center text-4xl text-white`}
+            className={`${modaniBold.className} max-w-[480px] text-center text-4xl text-white lg:text-start`}
           >
             Transforme<span className="text-[#F3E902]"> sua vida com </span>o
             Mercado Financeiro!
@@ -43,12 +45,20 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <a href="https://checkout.doppus.app/62522663/" target="_blank" className="mx-auto w-full max-w-96 rounded-md bg-[#F3E902] px-8 py-4 text-center text-black">
-          Quero credenciar
-        </a>
-        <div className="flex items-center">
-          <a href="#" className="text-[#F3E902]">Ver Palestrantes</a>
-          <ArrowRight color="#F3E902"/>
+        <div className="mx-auto flex w-full max-w-[480px] flex-col items-center justify-center gap-4 lg:ml-0 lg:flex-row">
+          <a
+            href="https://checkout.doppus.app/62522663/"
+            target="_blank"
+            className="w-full rounded-md bg-[#F3E902] px-8 py-4 text-center text-black lg:ml-0"
+          >
+            Quero credenciar
+          </a>
+          <a
+            href="#"
+            className="flex w-full items-center justify-center px-2 py-4 text-[#F3E902]"
+          >
+            Ver Palestrantes <ArrowRight color="#F3E902" />
+          </a>
         </div>
       </div>
     </section>
