@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "./_components/header";
 import localFont from "next/font/local"
 import Footer from "./_components/footer";
+import BtnWtpp from "./_components/btn-wtpp";
 
 const modaniRegular = localFont({
   src: "./fonts/MadaniArabicRegular.ttf",
@@ -22,6 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${modaniRegular.className}`}>
         <Header />
+        <BtnWtpp />
         {children}
         <Footer />
       </body>
