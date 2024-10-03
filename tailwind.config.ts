@@ -13,6 +13,12 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
     },
+    keyframes: {
+      showMenuBurguer: {
+        from: { opacity: "0", transform: "translatex(80px)" },
+        to: { oapcity: "1", transform: "translatex(0)" },
+      },
+    }
   },
   plugins: [],
 };
