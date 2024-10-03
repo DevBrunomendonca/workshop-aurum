@@ -1,7 +1,6 @@
 "use client"
 
 import React, { useState, useEffect } from 'react';
-import { modaniBold } from '../layout';
 
 import { Poppins } from "next/font/google"
 
