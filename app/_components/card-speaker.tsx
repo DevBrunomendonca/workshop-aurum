@@ -20,7 +20,7 @@ const CardSpeaker = ({
   description,
 }: CardSpeakerProps) => {
   return (
-    <div className="flex w-full max-w-[280px] mx-auto flex-col space-y-2">
+    <div className="flex w-full items-center max-w-[280px] mx-auto flex-col space-y-2 md:items-start">
       <div className="rounded-2xl border-[1px] border-[#F3E902] p-3">
         <Image
           src={srcProfile}
@@ -40,10 +40,10 @@ const CardSpeaker = ({
       <div className="flex items-center gap-1">
         <span className="text-sm text-white">{timeCardTwo}</span>
       </div>
-      <h4 className={`${modaniBold.className} text-base text-white`}>
+      <h4 className={`${modaniBold.className} text-center text-base text-white md:text-start`}>
         {nameProfile}
       </h4>
-      <p className="text-base text-white text-opacity-50">{description}</p>
+      <p className="text-base text-center text-white text-opacity-50 md:text-start">{description}</p>
     </div>
   );
 };
