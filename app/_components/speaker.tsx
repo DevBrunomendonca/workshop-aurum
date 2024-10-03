@@ -3,7 +3,7 @@ import CardSpeaker from "./card-speaker";
 
 const Speaker = () => {
   return (
-    <section className="px-4 py-8">
+    <section className="px-4 py-16 mb-56">
       <div className="max-w-6xl mx-auto flex flex-col gap-8 items-center">
         <div className="flex flex-col space-y-1">
           <h2

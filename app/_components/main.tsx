@@ -3,8 +3,8 @@ import { modaniBold, modaniRegular } from "../layout";
 
 const Main = () => {
   return (
-    <section className="h-[700px] w-full bg-[url('/banner-home-mobile.webp')] bg-cover bg-center bg-no-repeat">
-      <div className="flex h-full flex-col items-center justify-end gap-6 px-4 py-8">
+    <section className="h-[700 px-4 py-16 w-full bg-[url('/banner-home-mobile.webp')] bg-cover bg-center bg-no-repeat">
+      <div className="flex h-full flex-col items-center justify-end gap-6 ">
         <div className="flex flex-col items-center gap-6">
           <div className="flex items-center gap-2">
             <h3 className={`${modaniRegular} text-base text-white`}>
