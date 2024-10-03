@@ -56,7 +56,7 @@ const Speaker = () => {
           />
         </div>
         <a href="https://checkout.doppus.app/62522663/" target="_blank" className="mx-auto w-full max-w-96 rounded-md bg-[#F3E902] px-8 py-4 text-center text-black">
-          Quero credenciar
+          Quero participar
         </a>
       </div>
     </section>

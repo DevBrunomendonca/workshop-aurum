@@ -14,7 +14,7 @@ const Footer = () => {
               target="_blank"
               className="rounded-md bg-black px-16 py-4 text-[#F3E902]"
             >
-              Quero credenciar
+              Quero participar
             </a>
           </div>
           <Image 

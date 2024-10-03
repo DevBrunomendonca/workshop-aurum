@@ -46,7 +46,7 @@ const MenuBurguer = ({ closeMenu }: MenuBurguerProps) => {
             target="_blank"
             className="rounded-md text-base w-full max-w-[480px] mx-auto bg-[#F3E902] px-8 py-2 text-center text-black"
           >
-            Quero credenciar
+            Quero participar
           </a>
         </nav>
       </div>

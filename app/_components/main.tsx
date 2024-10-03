@@ -35,7 +35,7 @@ const Main = () => {
             target="_blank"
             className="w-full rounded-md bg-[#F3E902] px-8 py-4 text-center text-black lg:ml-0"
           >
-            Quero credenciar
+            Quero participar
           </a>
           <a
             href="#speaker"
