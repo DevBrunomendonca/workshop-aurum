@@ -21,22 +21,22 @@ const MenuBurguer = ({ closeMenu }: MenuBurguerProps) => {
         <nav className="flex flex-col items-center justify-center pt-8 gap-8">
           <ul className="flex flex-col items-center gap-8">
             <a onClick={closeMenu} href="#home">
-              <li className="text--white text-base transition delay-150 hover:text-[#F3E902]">
+              <li className="text-white text-base transition delay-150 hover:text-[#F3E902]">
                 Início
               </li>
             </a>
             <a onClick={closeMenu} href="#about">
-              <li className="text--white text-base transition delay-150 hover:text-[#F3E902]">
+              <li className="text-white text-base transition delay-150 hover:text-[#F3E902]">
                 Sobre o whorkshop
               </li>
             </a>
             <a onClick={closeMenu} href="#speaker">
-              <li className="text--white text-base transition delay-150 hover:text-[#F3E902]">
+              <li className="text-white text-base transition delay-150 hover:text-[#F3E902]">
                 Palestrantes
               </li>
             </a>
             <a onClick={closeMenu} href="#location">
-              <li className="text--white text-base transition delay-150 hover:text-[#F3E902]">
+              <li className="text-white text-base transition delay-150 hover:text-[#F3E902]">
                 Localização
               </li>
             </a>
