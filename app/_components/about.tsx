@@ -7,7 +7,7 @@ const About = () => {
       <div className="flex flex-col items-center gap-4 max-w-6xl mx-auto md:flex-row ">
         <div className="mx-auto w-full flex flex-col items-center gap-5 ">
           <h2 className={`${modaniBold.className} text-4xl text-white`}>
-            O que é o <span className="text-[#F3E902]"> evento!</span>
+            O que é o <span className="text-[#F3E902]"> evento?</span>
           </h2>
           <div
             className="h-[1px] w-full max-w-[340px]"
@@ -54,12 +54,12 @@ const About = () => {
           ></div>
         </div>
         <div className="w-full space-y-2">
-          <p>
+          <p className="text-white text-sm">
             Para você que deseja de fato prosperar, e quer aprender a entrar e
             entender de verdade, como funciona o Mercado Financeiro, temos um
             convite para você. 
           </p>
-          <p>
+          <p className="text-white text-sm"> 
             Nosso Workshop Presencial acontecerá no neste mês
             de outubro, e pode ter certeza que você sairá de lá com uma
             compreensão única sobre o Mercado, e terá todo o suporte para ter
