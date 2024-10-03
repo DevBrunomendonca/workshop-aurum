@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./_components/header";
 import localFont from "next/font/local"
+import Footer from "./_components/footer";
 
 export const modaniRegular = localFont({
   src: "./fonts/MadaniArabicRegular.ttf",
@@ -27,6 +28,7 @@ export default function RootLayout({
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
