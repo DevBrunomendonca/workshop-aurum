@@ -26,7 +26,7 @@ const Main = () => {
           </p>
         </div>
         <div className="flex items-center">
-          <h4 className="-rotate-90">Faltam</h4>
+          <h4 className="-rotate-90 text-white text-base">Faltam</h4>
           <Countdown />
         </div>
         <div className="mx-auto flex w-full max-w-[480px] flex-col items-center justify-center gap-4 lg:ml-0 lg:flex-row">
