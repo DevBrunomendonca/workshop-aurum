@@ -1,4 +1,4 @@
-import { modaniBold } from "../layout";
+import { modaniBold } from "../fonts";
 import Profile from "./profile";
 
 const About = () => {

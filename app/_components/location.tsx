@@ -1,6 +1,6 @@
 import { MapPin } from "lucide-react";
-import { modaniBold } from "../layout";
 import Image from "next/image";
+import { modaniBold } from "../fonts";
 
 const Location = () => {
   return (

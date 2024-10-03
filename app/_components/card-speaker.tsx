@@ -1,6 +1,6 @@
 import { Clock } from "lucide-react";
 import Image from "next/image";
-import { modaniBold } from "../layout";
+import { modaniBold } from "../fonts";
 
 interface CardSpeakerProps {
   srcProfile: string;

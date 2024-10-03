@@ -1,4 +1,5 @@
-import { modaniBold } from "../layout";
+
+import { modaniBold } from "../fonts";
 import CardSpeaker from "./card-speaker";
 
 const Speaker = () => {

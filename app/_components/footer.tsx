@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { modaniBold } from "../layout"
+import { modaniBold } from "../fonts"
 
 const Footer = () => {
   return (

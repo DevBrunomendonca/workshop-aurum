@@ -1,7 +1,7 @@
 import { ArrowRight, ArrowUpRight } from "lucide-react";
-import { modaniBold, modaniRegular } from "../layout";
 import VideoBanner from "./banner-video";
 import Countdown from "./count-down";
+import { modaniBold } from "../fonts";
 
 const Main = () => {
   return (
@@ -10,7 +10,7 @@ const Main = () => {
       <div className="mx-auto px-4 flex h-full max-w-4xl flex-col items-center justify-end gap-6 lg:items-start lg:justify-center lg:-mt-10">
         <div className="flex flex-col items-center gap-6 lg:items-start">
           <div className="flex items-center gap-2">
-            <h3 className={`${modaniRegular} text-base text-white`}>
+            <h3 className="text-base text-white">
               Workshop Presencial{" "}
             </h3>
             <ArrowUpRight color="#F3E902" />
@@ -21,7 +21,7 @@ const Main = () => {
             Transforme<span className="text-[#F3E902]"> sua vida com </span>o
             Mercado Financeiro!
           </h1>
-          <p className={`${modaniRegular} text-center text-sm`}>
+          <p className="text-center text-sm">
             Você faz parte dos 5% que sobrevive no mercado financeiro!
           </p>
         </div>
