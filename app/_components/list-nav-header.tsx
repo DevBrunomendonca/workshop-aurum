@@ -7,7 +7,7 @@ const ListNavHeader = () => {
         <a href="#speaker"><li className="text-white text-sm transition delay-150 hover:text-[#F3E902]">Palestrantes</li></a>
         <a href="#location"><li className="text-white text-sm transition delay-150 hover:text-[#F3E902]">Localização</li></a>
       </ul>
-      <a href="https://checkout.doppus.app/62522663/" target="_blank" className="rounded-md bg-[#F3E902] px-8 py-2 text-center text-black">Quero participar</a>
+      <a href="https://checkout.doppus.app/28256588/" target="_blank" className="rounded-md bg-[#F3E902] px-8 py-2 text-center text-black">Quero participar</a>
     </nav>
   );
 };

@@ -55,7 +55,7 @@ const Speaker = () => {
             description="Gerenciamento de Risco: o Segredo dos 5% que vencem."
           />
         </div>
-        <a href="https://checkout.doppus.app/62522663/" target="_blank" className="mx-auto w-full max-w-96 rounded-md bg-[#F3E902] px-8 py-4 text-center text-black">
+        <a href="https://checkout.doppus.app/28256588/" target="_blank" className="mx-auto w-full max-w-96 rounded-md bg-[#F3E902] px-8 py-4 text-center text-black">
           Quero participar
         </a>
       </div>

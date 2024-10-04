@@ -31,7 +31,7 @@ const Main = () => {
         </div>
         <div className="mx-auto flex w-full max-w-[480px] flex-col items-center justify-center gap-4 lg:ml-0 lg:flex-row">
           <a
-            href="https://checkout.doppus.app/62522663/"
+            href="https://checkout.doppus.app/28256588/"
             target="_blank"
             className="w-full rounded-md bg-[#F3E902] px-8 py-4 text-center text-black lg:ml-0"
           >

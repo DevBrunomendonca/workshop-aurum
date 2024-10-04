@@ -42,7 +42,7 @@ const MenuBurguer = ({ closeMenu }: MenuBurguerProps) => {
             </a>
           </ul>
           <a
-            onClick={closeMenu} href="https://checkout.doppus.app/62522663/"
+            onClick={closeMenu} href="https://checkout.doppus.app/28256588/"
             target="_blank"
             className="rounded-md text-base w-full max-w-[480px] mx-auto bg-[#F3E902] px-8 py-2 text-center text-black"
           >
