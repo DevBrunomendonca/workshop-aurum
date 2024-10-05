@@ -18,22 +18,22 @@ const About = () => {
           ></div>
           <div className="flex flex-col gap-4">
             <div className="relative flex">
-              <Profile srcProfile="/profile-1.svg" />
+              <Profile srcProfile="/perfil-1.png" />
               <Profile
                 className="absolute left-[60px]"
-                srcProfile="/profile-4.svg"
+                srcProfile="/perfil-4.png"
               />
               <Profile
                 className="absolute left-[120px]"
-                srcProfile="/profile-5.svg"
+                srcProfile="/perfil-5.png"
               />
               <Profile
                 className="absolute left-[180px]"
-                srcProfile="/profile-2.svg"
+                srcProfile="/perfil-2.png"
               />
               <Profile
                 className="absolute left-[240px]"
-                srcProfile="/profile-3.svg"
+                srcProfile="/perfil-3.png"
               />
             </div>
             <div className="flex flex-col items-start">

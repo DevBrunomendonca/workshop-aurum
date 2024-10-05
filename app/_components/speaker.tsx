@@ -19,28 +19,28 @@ const Speaker = () => {
         </div>
         <div className="grid items-start justify-center place-items-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-5">
             <CardSpeaker
-            srcProfile="/profile-1.svg"
+            srcProfile="/perfil-1.png"
             dataCard="Sáb 19/10"
             timeCard="8:40 às 9:00"
             nameProfile="ADRIANO CAMARGO"
             description="Abertura do workshop"
           />
           <CardSpeaker
-            srcProfile="/profile-2.svg"
+            srcProfile="/perfil-2.png"
             dataCard="Sáb 19/10"
             timeCard="9:00 às 9:30"
             nameProfile="WAGNER LUIZ"
             description="Oportunidades: Empreendendo no Mercado Financeiro."
           />
           <CardSpeaker
-            srcProfile="/profile-3.svg"
+            srcProfile="/perfil-3.png"
             dataCard="Sáb 19/10"
             timeCard="9:30 às 10:00"
             nameProfile="THIAGO EVANGELISTA"
             description="Primeiros Passos: Sobrevivência ao Crescimento."
           />
           <CardSpeaker
-            srcProfile="/profile-4.svg"
+            srcProfile="/perfil-4.png"
             dataCard="Sáb 19/10"
             timeCard="10:00 às 10:30"
             timeCardTwo="11:00 às 11:20"
@@ -48,7 +48,7 @@ const Speaker = () => {
             description="Estratégias Quantitativas: como usar os DADOS a seu favor."
           />
           <CardSpeaker
-            srcProfile="/profile-5.svg"
+            srcProfile="/perfil-5.png"
             dataCard="Sáb 19/10"
             timeCard="11:20 às 11:45"
             nameProfile="ISMAEL GUIMARÃES"
