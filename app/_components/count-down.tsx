@@ -1,13 +1,13 @@
-"use client"
+"use client";
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
-import { Poppins } from "next/font/google"
+import { Poppins } from "next/font/google";
 
 const poppins = Poppins({
-  subsets: ['latin'],
-  weight: '700'
-})
+  subsets: ["latin"],
+  weight: "700",
+});
 
 interface TimeLeft {
   days: number;
@@ -25,7 +25,7 @@ const Countdown: React.FC = () => {
   });
 
   useEffect(() => {
-    const targetDate = new Date('2024-10-19T00:00:00');
+    const targetDate = new Date("2024-10-19T08:00:00");
 
     const updateCountdown = () => {
       const now = new Date();
@@ -49,19 +49,27 @@ const Countdown: React.FC = () => {
   return (
     <div className="flex items-center gap-4">
       <div className="flex h-16 w-16 flex-col items-center rounded-md bg-[#F3E902] p-2 text-black">
-        <span className={`${poppins.className} font-bold text-3xl`}>{timeLeft.days}</span>
+        <span className={`${poppins.className} text-3xl font-bold`}>
+          {timeLeft.days}
+        </span>
         <span className="text-xs">dias</span>
       </div>
       <div className="flex h-16 w-16 flex-col items-center rounded-md bg-[#F3E902] p-2 text-black">
-        <span className={`${poppins.className} font-bold text-3xl`}>{timeLeft.hours}</span>
+        <span className={`${poppins.className} text-3xl font-bold`}>
+          {timeLeft.hours}
+        </span>
         <span className="text-xs">horas</span>
       </div>
       <div className="flex h-16 w-16 flex-col items-center rounded-md bg-[#F3E902] p-2 text-black">
-        <span className={`${poppins.className} font-bold text-3xl`}>{timeLeft.minutes}</span>
+        <span className={`${poppins.className} text-3xl font-bold`}>
+          {timeLeft.minutes}
+        </span>
         <span className="text-xs">minutos</span>
       </div>
       <div className="flex h-16 w-16 flex-col items-center rounded-md bg-[#F3E902] p-2 text-black">
-        <span className={`${poppins.className} font-bold text-3xl`}>{timeLeft.seconds}</span>
+        <span className={`${poppins.className} text-3xl font-bold`}>
+          {timeLeft.seconds}
+        </span>
         <span className="text-xs">segundos</span>
       </div>
     </div>
