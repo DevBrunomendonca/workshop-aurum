@@ -4,7 +4,7 @@ import Header from "./_components/header";
 import localFont from "next/font/local";
 import Footer from "./_components/footer";
 import BtnWtpp from "./_components/btn-wtpp";
-import Head from "next/head"; // Importa o componente Head
+import Head from "next/head";
 import Image from "next/image";
 
 const modaniRegular = localFont({
@@ -15,6 +15,9 @@ const modaniRegular = localFont({
 export const metadata: Metadata = {
   title: "Workshop Aurum",
   description: "Transforme sua vida com o Mercado Financeiro!",
+  icons: {
+    icon: "/favicon-aurum.ico",
+  },
   openGraph: {
     title: "Workshop Aurum",
     description: "Transforme sua vida com o Mercado Financeiro!",
@@ -39,7 +42,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <link rel="icon" href="/favicon-aurum.ico" sizes="any" />
         <script
           dangerouslySetInnerHTML={{
             __html: `
