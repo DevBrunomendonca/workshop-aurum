@@ -5,6 +5,7 @@ import localFont from "next/font/local";
 import Footer from "./_components/footer";
 import BtnWtpp from "./_components/btn-wtpp";
 import Head from "next/head"; // Importa o componente Head
+import Image from "next/image";
 
 const modaniRegular = localFont({
   src: "./fonts/MadaniArabicRegular.ttf",
@@ -38,6 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
+        <link rel="icon" href="/favicon-aurum.ico" sizes="any" />
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -55,14 +57,14 @@ export default function RootLayout({
           }}
         />
         <noscript>
-          <img
-            height="1"
-            width="1"
+          <Image
+            alt=""
+            height={1}
+            width={1}
             style={{ display: "none" }}
             src="https://www.facebook.com/tr?id=1583661365920020&ev=PageView&noscript=1"
           />
         </noscript>
-
         <script
           src="https://cdn.utmify.com.br/scripts/utms/latest.js"
           data-utmify-prevent-subids
